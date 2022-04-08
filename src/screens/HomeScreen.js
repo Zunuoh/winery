@@ -20,7 +20,7 @@ const HomeScreen = () => {
           <button className="button">
             <Link
               to="/productscreen"
-              style={{ textDecoration: "none", color: "white" }}
+              className="buttonLinks"
             >
               Read more
             </Link>
@@ -34,7 +34,7 @@ const HomeScreen = () => {
         </div>
 
         <div className="welcomeText">
-          <h4 style={{ fontWeight: "bold" }}>Welcome To Dolomites</h4>
+          <h4 className='dolomitesHeader'>Welcome To Dolomites</h4>
           <div className="loremText">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim

@@ -108,6 +108,15 @@ body{
   color: #fff;
 }
 
+.buttonLinks{
+  text-decoration: "none";
+  color: "white" 
+}
+
+.dolomitesHeader{
+  font-weight: bold;
+}
+
 /* @media screen and (max-width:600px) {
   .headerBody{
     margin-left: 20%;
